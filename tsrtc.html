@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span{
+            color:red;
+        }
+        legend{
+            background-color:rgb(88, 164, 226);
+            border-radius: 4px;
+            font-size: 23px;
+            color: white;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <table>
+        <tr><td style="background-color: rgb(234, 234, 248);border-radius: 40px;"><center>
+            <img src="tsrtclogo.png" width="60px">
+            <h2 style="color:blue;">TELANGANA STARE ROAD TRANSPORT CORPORATION </h2>
+            <h2>GENERAL BUS PASS APPLICATION</h2>
+        </td></tr>
+        <tr><td>
+            <form action="./tsrtc-message.html">
+            <fieldset>
+                <legend>Applicant Details</legend>
+                <table cellspacing="15">
+                    <tr>
+                        <td>
+                            <label for="name">Name <span>*</span></label>
+                        </td>
+                        <td>
+                            <input type="text" id="name" name="fname" required><br>
+                            <span>(Maximum characters: 20)</span>
+                        </td>
+                        <td>
+                            <label for="fgname">Father's / Guardian's Name <span>*</span></label>
+                        </td>
+                        <td>
+                            <input type="text" id="fgname" name="father's / guardian's name" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="dob">Date of Birth <span>*</span></label>
+                        </td>
+                        <td>
+                            <input type="text" id="dob" name="dob" required>
+                        </td>
+                        <td>
+                            <label>Gender <span>*</span></label>
+                        </td>
+                        <td>
+                            <input type="radio" name="gender" id="male" required><label for="male">Male</label>
+                            <input type="radio" name="gender" id="female" required><label for="female">Female</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="age as on">Age As On :</label>
+                        </td>
+                        <td>
+                            <input type="number" style="width: 15px;">Year(s)
+                            <input type="number" style="width: 15px;">Month(s)
+                            <input type="number" style="width: 15px;">Day(s)
+                        </td>
+                        <td>
+                            <label for="aadhar">Aadhaar No:</label>
+                        </td>
+                        <td>
+                            <input type="number" id="aadhar">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="whats">WhatsApp No <span>*</span></label>
+                        </td>
+                        <td>
+                            <input type="number" id="whats" name="whatsapp" required>
+                        </td>
+                        <td>
+                            <label for="email">E-mail Id <span>*</span></label>
+                        </td>
+                        <td>
+                            <input type="email" id="email" name="email" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="photo">Photo <span>*</span></label>
+                        </td>
+                        <td>
+                            <input type="file" id="photo" name="photo" required>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>Residential Address Details</legend>
+                <table cellspacing="15">
+                    <tr>
+                        <td colspan="2">
+                            <label for="address">Applicant's Address <span>*</span></label>
+                        </td>
+                        <td>
+                            <textarea rows="5" cols="25" id="address" name="Address" required></textarea>
+                            <br><span>(Maximum characters: 20)<br>You have 20 characters left</span>
+                        </td>
+                        <td>
+                            <label for="dist">District <span>*</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                        </td>
+                        <td>
+                            <select id="dist" name="district" required>
+                                <option selected disabled>Select District</option>
+                                <option value="Jangaon">Jangaon</option>
+                                <option value="Hanamkonda">Hanamkonda</option>
+                                <option value="Hyderabad">Hyderabad</option>
+                                <option value="Karimnagar">Karimnagar</option>
+                                <option value="Siddipet">Siddipet</option>
+                                <option value="Nalgonda">Nalgonda</option>
+                                <option value="Suryapet">Suryapet</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="mandal">Mandal <span>*</span></label>
+                        </td>
+                        <td>
+                            <select id="mandal" name="mandal" required>
+                                <option selected disabled>Select Mandal</option>
+                                <option value="Jangaon">Jangaon</option>
+                                <option value="Hanamkonda">Hanamkonda</option>
+                                <option value="Hyderabad">Hyderabad</option>
+                                <option value="Karimnagar">Karimnagar</option>
+                                <option value="Siddipet">Siddipet</option>
+                                <option value="Nalgonda">Nalgonda</option>
+                                <option value="Suryapet">Suryapet</option>
+                            </select>
+                        </td>
+                        <td>
+                            <label for="vill">Village <span>*</span></label>
+                        </td>
+                        <td>
+                            <select id="vill" name="village" required>
+                                <option selected disabled>Select Village</option>
+                                <option value="Jangaon">Jangaon</option>
+                                <option value="Hanamkonda">Hanamkonda</option>
+                                <option value="Hyderabad">Hyderabad</option>
+                                <option value="Karimnagar">Karimnagar</option>
+                                <option value="Siddipet">Siddipet</option>
+                                <option value="Nalgonda">Nalgonda</option>
+                                <option value="Suryapet">Suryapet</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="pincode">Pincode <span>*</span></label>
+                        </td>
+                        <td>
+                            <input type="number" id="pincode" name="pincode" required>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>Pass Type Details</legend>
+                <table cellspacing="15">
+                    <tr>
+                        <td>
+                            <label for="city">City <span>*</span></label>
+                        </td>
+                        <td>
+                            <select id="city" name="city" required>
+                                <option selected disabled>Select City</option>
+                                <option value="Hyderabad">Hyderabad</option>
+                                <option value="Warangal">Warangal</option>
+                                <option value="Karimnagar">Karimnagar</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="pass">Pass Type <span>*</span></label>
+                        </td>
+                        <td>
+                            <select id="pass" name="passtype" required>
+                                <option selected disabled>Select Pass Type</option>
+                                <option value="Greater Pass">Greater Pass</option>
+                                <option value="Ordinary Pass">Ordinary Pass</option>
+                                <option value="Metro Pass">Metro Pass</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>Mode of Payment & Pass Collection</legend>
+                <table cellspacing="15">
+                    <tr>
+                        <td>
+                            <label for="pay">Payment Mode <span>*</span></label>
+                        </td>
+                        <td>
+                            <select id="pay" name="payment" required>
+                                <option selected disabled>Select Payment Mode</option>
+                                <option value="counter">At Counter</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="del">Pass Delivery Mode <span>*</span></label>
+                        </td>
+                        <td>
+                            <select id="del" name="passDelivery" required>
+                                <option selected disabled>Select Pass Delivery Mode</option>
+                                <option value="counter">At Counter</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="collectPlace">Center at which you want to Collect Pass <span>*</span></label>
+                        </td>
+                        <td>
+                            <select id="collectPlace" name="Place" required>
+                                <option selected disabled>----Select----</option>
+                                <option value="place1">Place 1</option>
+                                <option value="place2">Place 2</option>
+                                <option value="place3">Place 3</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <center>
+            <img src="./tsrtc-captcha.png" width="180"><br>
+            <input type="text"><br><br>
+            <button style="background-color: red;">Submit</button>
+            </center>
+            </form>
+       </center></td></tr>
+    </table>
+    </center>
+</body>
+</html>
