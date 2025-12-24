@@ -1,0 +1,195 @@
+/*chat header code*/
+.mobilescreen{
+    width:320px;
+    height:485px;
+    border:5px solid black;
+    border-radius: 30px;
+    /* background-color:blanchedalmond; */
+    margin-left: 430px;
+    position:fixed;
+}
+.chatheader{
+    width:320px;
+    height:55px;
+    border:1px solid greenyellow;
+    border-radius: 30px 30px 0px 0px;
+    background-color: greenyellow;
+    position: relative;   
+}
+.dp{
+    width: 40px;
+    height:40px;
+    /* border:1px solid black; */
+    border-radius: 50%;
+    margin-left: 30px;
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 9px;
+}
+.bi-arrow-left{
+    margin-left: 8px;
+    margin-top: 5px;
+    font-size: 22px;
+    position: absolute;
+    top:12px; 
+}
+.bi-camera-video{
+    margin-left: 140px;
+    margin-top: 5px;
+    font-size: 22px;
+    position: absolute;
+    top:12px; 
+
+}
+.bi-telephone{
+    margin-left: 170px;
+    margin-top: 5px;
+    font-size: 20px;
+    position: absolute;
+    top:12px; 
+}
+.bi-three-dots-vertical{
+    margin-left: 200px;
+    margin-top: 5px;
+    font-size: 22px;
+    position: absolute;
+    top:12px; 
+}
+.dp img{
+    width:100%;
+    border-radius: 50%;
+    display: inline-block;
+}
+.chatheader p{
+    position:absolute;
+    top: 4px;
+    margin-left: 85px;
+    /* margin-bottom: 10px; */
+}
+
+
+/* ------chat code ----- */
+.chat{
+    width:320px;
+    height:380px;
+    /* border:2px solid yellow; */
+    overflow: scroll;
+    scrollbar-width: none;
+
+}
+#wbg{
+    width:100%;
+    position:absolute;
+    z-index: -1;
+}
+.date{
+    margin-left:115px;
+    background-color: black;
+    display: inline-block ;
+    color: white;
+    position:sticky;
+    top:0px;
+    
+}
+.person1{
+    width:230px;
+    border:1px solid white;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: white;
+    text-align: left;
+    margin-left:2px;
+    display:inline-block
+}
+.person2{
+    padding:5px;    
+    border:1px solid black;
+    border-radius: 20px;    
+    background-color: greenyellow;
+    color:black;
+    margin-left: 100px;
+    margin-right: 2px;
+    
+}
+
+/* -----chat area code-----*/
+
+
+.chatarea{
+    width: 280px;
+    height: 40px;
+    /* border:1px solid grey; */
+    border-radius: 30px;
+    margin-top: 53x;
+    margin-left:3px;
+    background-color: rgb(180, 245, 83);
+    position: absolute;
+}
+
+.bi-emoji-smile{
+
+    top:7px;
+    left:10px;
+    font-size: 22px;
+    position: absolute;
+    top:12px; 
+   
+
+}
+.chatarea p{
+
+    margin-top:10px;
+    padding-left: 40px; 
+    
+}
+.bi-paperclip{
+    position:absolute;
+    top:6px;
+    padding-left: 200px;
+    font-size: 22px;
+    position: absolute;
+    top:12px; 
+}
+.bi-currency-rupee{
+    position:absolute;
+    top:6px;
+    padding-left: 225px;
+    font-size: 22px;
+    position: absolute;
+    top:12px; 
+
+}
+.bi-camera{
+    position:absolute;
+    top:6px;
+    padding-left: 250px;
+    font-size: 22px;
+    position: absolute;
+    top:12px; 
+}
+.microphone{
+    width:32px;
+    height:32px;
+    border:1px solid black;
+    border-radius: 50%;
+    margin-left: 283px;
+    margin-top: 410px;
+    position:absolute;
+    top:44px;
+    background-color: green;
+    position: fixed;
+}
+.bi-mic{
+    /* border:1px solid black;  */
+    margin-top:-7px;
+    margin-left:5px;
+    font-size: 22px;
+    position: absolute;
+    top:12px; 
+} 
+i{
+    font-size: 22px;
+}
+sub{
+    padding:10px;
+}
